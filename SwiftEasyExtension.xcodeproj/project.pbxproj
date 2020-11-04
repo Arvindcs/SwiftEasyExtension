@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A444F01E2552420A0033A7DD /* ImagePickerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A444F01D2552420A0033A7DD /* ImagePickerHelper.swift */; };
+		A444F021255242510033A7DD /* ImgeUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = A444F020255242510033A7DD /* ImgeUpload.swift */; };
+		A444F024255245C20033A7DD /* AKHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A444F023255245C20033A7DD /* AKHUD.swift */; };
+		A444F027255245F20033A7DD /* DotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A444F026255245F20033A7DD /* DotView.swift */; };
+		A47D2AA62551991400B677BA /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47D2AA52551991400B677BA /* ProfileHeaderView.swift */; };
 		A4AA38C525355FB400A341D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA38C425355FB400A341D0 /* AppDelegate.swift */; };
 		A4AA38C725355FB400A341D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA38C625355FB400A341D0 /* SceneDelegate.swift */; };
 		A4AA38C925355FB400A341D0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA38C825355FB400A341D0 /* HomeViewController.swift */; };
@@ -38,6 +43,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A444F01D2552420A0033A7DD /* ImagePickerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerHelper.swift; sourceTree = "<group>"; };
+		A444F020255242510033A7DD /* ImgeUpload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImgeUpload.swift; sourceTree = "<group>"; };
+		A444F023255245C20033A7DD /* AKHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKHUD.swift; sourceTree = "<group>"; };
+		A444F026255245F20033A7DD /* DotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotView.swift; sourceTree = "<group>"; };
+		A47D2AA52551991400B677BA /* ProfileHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		A4AA38C125355FB400A341D0 /* SwiftEasyExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftEasyExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4AA38C425355FB400A341D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4AA38C625355FB400A341D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +91,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A444F01C255241FE0033A7DD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A444F023255245C20033A7DD /* AKHUD.swift */,
+				A444F026255245F20033A7DD /* DotView.swift */,
+				A444F01D2552420A0033A7DD /* ImagePickerHelper.swift */,
+				A444F020255242510033A7DD /* ImgeUpload.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		A4AA38B825355FB400A341D0 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +121,7 @@
 		A4AA38C325355FB400A341D0 /* SwiftEasyExtension */ = {
 			isa = PBXGroup;
 			children = (
+				A444F01C255241FE0033A7DD /* Helper */,
 				A4D2982E2549662F008EE71C /* Extension */,
 				A4AA38DE25355FFE00A341D0 /* AppDelegate */,
 				A4AA38DC25355FEE00A341D0 /* Controller */,
@@ -131,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				A4AA38C825355FB400A341D0 /* HomeViewController.swift */,
+				A47D2AA52551991400B677BA /* ProfileHeaderView.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -253,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A444F021255242510033A7DD /* ImgeUpload.swift in Sources */,
 				A4D2985725496659008EE71C /* UIImageView+Ext.swift in Sources */,
 				A4D2985625496659008EE71C /* UIImage+Ext.swift in Sources */,
 				A4D2984A25496659008EE71C /* ImageCache.swift in Sources */,
@@ -267,14 +291,18 @@
 				A4AA38C925355FB400A341D0 /* HomeViewController.swift in Sources */,
 				A4D2986D2549A8B5008EE71C /* Types.swift in Sources */,
 				A4D2984D25496659008EE71C /* UITextField+Ext.swift in Sources */,
+				A444F024255245C20033A7DD /* AKHUD.swift in Sources */,
 				A4D2984725496659008EE71C /* JSONDecoder+Ext.swift in Sources */,
 				A4AA38C525355FB400A341D0 /* AppDelegate.swift in Sources */,
 				A4D2984925496659008EE71C /* ImageLoader.swift in Sources */,
 				A4D2985525496659008EE71C /* UICollectionView+Ext.swift in Sources */,
 				A4AA38C725355FB400A341D0 /* SceneDelegate.swift in Sources */,
 				A4D2984525496659008EE71C /* ImageCacheType.swift in Sources */,
+				A444F027255245F20033A7DD /* DotView.swift in Sources */,
 				A4D2985425496659008EE71C /* Int+Ext.swift in Sources */,
 				A4D2985025496659008EE71C /* Formatter+Ext.swift in Sources */,
+				A47D2AA62551991400B677BA /* ProfileHeaderView.swift in Sources */,
+				A444F01E2552420A0033A7DD /* ImagePickerHelper.swift in Sources */,
 				A4D2984425496659008EE71C /* UIButton+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,11 +453,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 493S77954X;
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftEasyExtension/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codewithArvind.com.SwiftEasyExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithArvind.SwiftEasyExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -444,11 +473,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 493S77954X;
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftEasyExtension/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codewithArvind.com.SwiftEasyExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithArvind.SwiftEasyExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

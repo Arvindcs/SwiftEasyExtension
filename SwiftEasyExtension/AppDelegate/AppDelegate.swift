@@ -3,7 +3,7 @@
 //  SwiftEasyExtension
 //
 //  Created by Arvind on 13/10/20.
-//
+//  Copyright © 2020 Arvind. All rights reserved.
 
 import UIKit
 
