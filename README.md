@@ -54,4 +54,4 @@ Download this project and simply drag and drop extension folder into your xcode 
 
 
 ## Reach me via 👇🏻
-[![Instagram](https://i.ibb.co/3m04rjW/insta.png)](https://www.instagram.com/developer.arvind/) [![Linkedin](https://i.ibb.co/ZdvBhbV/linkedin.png)](https://www.linkedin.com/in/arvindcs/)
+[![Instagram](https://i.ibb.co/3m04rjW/insta.png)](https://www.instagram.com/arvind_iosdev/) [![Linkedin](https://i.ibb.co/ZdvBhbV/linkedin.png)](https://www.linkedin.com/in/arvindcs/)
